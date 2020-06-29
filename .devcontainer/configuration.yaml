@@ -1,0 +1,9 @@
+default_config:
+
+#automation: !include automations.yaml
+
+logger:
+  default: info
+  logs:
+    custom_components.meraki_scanning_api: debug
+

@@ -1,0 +1,8 @@
+{
+    "name": "Meraki Scanning API",
+    "hacs": "0.0.1",
+    "domains": [
+        "presence"
+    ],
+    "iot_class": "Cloud Push"
+}

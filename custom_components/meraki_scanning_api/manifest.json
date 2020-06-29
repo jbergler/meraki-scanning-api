@@ -1,0 +1,10 @@
+{
+  "domain": "meraki_scanning_api",
+  "name": "Meraki Scanning API",
+  "documentation": "https://www.home-assistant.io/integrations/meraki",
+  "config_flow": true,
+  "dependencies": [
+    "http"
+  ],
+  "codeowners": []
+}

@@ -1,0 +1,34 @@
+{
+    "config": {
+        "title": "Meraki Scanning API",
+        "step": {
+            "user": {
+                "title": "Meraki Scanning API",
+                "description": "Configure a shared secret, if you are setting this up for the first time we generated one for you.",
+                "data": {
+                    "secret": "Shared Secret",
+                    "validator": "Validator"
+                }
+            }
+        },
+        "error": {
+            "test": "errors",
+            "secret_missing": "Shared Secret cannot be empty"
+        },
+        "abort": {
+            "single_instance_allowed": "Only a single configuration of Blueprint is allowed."
+        }
+    },
+    "options": {
+        "step": {
+            "user": {
+                "title": "Meraki Scanning API",
+                "description": "Configure a shared secret, if you are setting this up for the first time we generated one for you.",
+                "data": {
+                    "secret": "Shared Secret",
+                    "validator": "Validator"
+                }
+            }
+        }
+    }
+}
